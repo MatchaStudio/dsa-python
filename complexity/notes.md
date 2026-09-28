@@ -16,6 +16,8 @@ n loop × log n loop → O(n log n)
 Sequential loops → Add complexities and keep the dominant term
 Fixed inner loop → Does not add another n
 Repeated multiplication/division → O(log n)
+Nested loops do not automatically mean O(n²)
+The number of times the inner loop runs depends on how it is controlled
 
 ## Space Complexity
 Extra memory that grows with n → O(n)
